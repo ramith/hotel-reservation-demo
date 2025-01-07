@@ -33,8 +33,8 @@ spec:
       schemaFilePath: src/main/resources/openapi.yaml
   outbound:
     serviceReferences:
-      - name: choreo:///choreotutorial2024/notifications/nhoatm/1a41c/v1.0/PUBLIC
-        connectionConfig: 01ef0218-4ad9-14be-9f9f-2242975af73a
+      - name: choreo:///ramith2023/vuzc/bqxvuq/1a41c/v1/PUBLIC
+        connectionConfig: 01eeece2-c791-10ce-9235-3cb2559a3361
         env:
           - from: ServiceURL
             to: NOTIFICATION_API_ENDPOINT
